@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Parcial 1 - Electiva 2</title>
+    <style>
+        body {
+            margin: 0;
+            background: #0f172a;
+            color: #38bdf8;
+            font-family: system-ui, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .card {
+            text-align: center;
+            padding: 2rem;
+            border: 1px solid #334155;
+            border-radius: 1rem;
+            background: #1e293b;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.5);
+            animation: slideUp 0.8s ease-out;
+        }
+        h1 { font-size: 3rem; margin: 0; text-transform: uppercase; letter-spacing: 2px; }
+        p { color: #94a3b8; margin-top: 1rem; }
+        
+        @keyframes slideUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Bienvenido a mi pagina con Surge</h1>
+        <p>Hecho por Elias Zabala </p>
+    </div>
+</body>
+</html>
