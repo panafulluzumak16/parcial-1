@@ -17,4 +17,4 @@ jobs:
       - name: Install Surge and Deploy
         run: |
           npm install -g surge
-          surge ./ --domain mipagina-actions.surge.sh --token ${{ secrets.SURGE_TOKEN }}
+          surge ./ --domain parcial1-20241868.surge.sh --token ${{ secrets.SURGE_TOKEN }}
